@@ -6,6 +6,7 @@ const connectDB = require("./config/db");
 const authRoutes = require("./routes/authRoutes");
 const teacherRoutes = require("./routes/teacherRoutes");
 const studentRoutes = require("./routes/studentRoutes");
+const classRoutes = require("./routes/classRoutes");
 dotenv.config();
 connectDB();
 const app = express();
@@ -23,6 +24,7 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRoutes);
 app.use("/api/teachers", teacherRoutes);
 app.use("/api/students", studentRoutes);
+app.use("/api/classes", classRoutes);
 app.use((req, res) => {
     res.status(404).json ({
         success: false,
