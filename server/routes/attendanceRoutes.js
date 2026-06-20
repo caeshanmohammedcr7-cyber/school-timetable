@@ -13,4 +13,4 @@ router.get('/student/:studentId', getAttendanceByStudent);
 router.get('/class/:classId', getAttendanceByClass);
 router.post('/', authorizeRoles('teacher', 'admin'), markAttendance);
 router.put('/:id', authorizeRoles('teacher', 'admin'), updateAttendance);
-module.exports = router;
+module.exports = router; 

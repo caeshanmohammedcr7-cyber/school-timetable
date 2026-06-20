@@ -15,4 +15,4 @@ router.get('/:id', getSubjectById);
 router.post('/', authorizeRoles('admin'), createSubject);
 router.put('/:id', authorizeRoles('admin'), updateSubject);
 router.delete('/:id', authorizeRoles('admin'), deleteSubject);
-module.exports = router;
+module.exports = router; 

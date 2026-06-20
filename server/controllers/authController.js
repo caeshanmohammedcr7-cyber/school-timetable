@@ -70,4 +70,4 @@ const getProfile = async (req, res) => {
     return res.status(500).json({ message: 'Server error', error: error.message });
   }
 };
-module.exports = { register, login, getProfile };
+module.exports = { register, login, getProfile }; 

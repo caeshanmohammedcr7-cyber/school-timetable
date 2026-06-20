@@ -13,4 +13,4 @@ router.post('/', createLeaveRequest);
 router.get('/', authorizeRoles('admin'), getAllLeaveRequests);
 router.put('/:id/approve', authorizeRoles('admin'), approveLeaveRequest);
 router.put('/:id/reject', authorizeRoles('admin'), rejectLeaveRequest);
-module.exports = router;
+module.exports = router; 

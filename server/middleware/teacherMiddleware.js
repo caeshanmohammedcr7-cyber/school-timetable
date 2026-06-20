@@ -4,4 +4,4 @@ const teacherMiddleware = (req, res, next) => {
   }
   next();
 };
-module.exports = teacherMiddleware;
+module.exports = teacherMiddleware; 

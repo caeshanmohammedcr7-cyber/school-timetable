@@ -36,4 +36,4 @@ module.exports = {
   sendNotification,
   getNotifications,
   markNotificationRead,
-};
+}; 

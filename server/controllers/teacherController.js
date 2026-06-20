@@ -58,4 +58,4 @@ module.exports = {
     createTeacher,
     updateTeacher,
     deleteTeacher,
-};
+}; 

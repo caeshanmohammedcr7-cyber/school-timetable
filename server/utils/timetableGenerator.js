@@ -91,4 +91,4 @@ const generateTimetable = ({
   });
   return { entries, unscheduled, teacherSchedule };
 };
-module.exports = { generateTimetable, generateDefaultTimeSlots };
+module.exports = { generateTimetable, generateDefaultTimeSlots }; 

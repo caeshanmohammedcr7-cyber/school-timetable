@@ -61,4 +61,4 @@ module.exports = {
   getSubjectById,
   updateSubject,
   deleteSubject,
-};
+}; 

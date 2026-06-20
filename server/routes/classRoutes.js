@@ -15,4 +15,4 @@ router.get('/:id', getClassById);
 router.post('/', authorizeRoles('admin'), createClass);
 router.put('/:id', authorizeRoles('admin'), updateClass);
 router.delete('/:id', authorizeRoles('admin'), deleteClass);
-module.exports = router;
+module.exports = router; 

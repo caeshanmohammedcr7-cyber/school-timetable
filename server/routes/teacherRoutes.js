@@ -15,4 +15,4 @@ router.get('/:id', getTeacherById);
 router.post('/', authorizeRoles('admin'), createTeacher);
 router.put('/:id', authorizeRoles('admin'), updateTeacher);
 router.delete('/:id', authorizeRoles('admin'), deleteTeacher);
-module.exports = router;
+module.exports = router; 

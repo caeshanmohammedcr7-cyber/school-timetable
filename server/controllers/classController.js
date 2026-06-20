@@ -61,4 +61,4 @@ module.exports = {
   getClassById,
   updateClass,
   deleteClass,
-};
+}; 

@@ -11,4 +11,4 @@ router.use(authMiddleware);
 router.get('/:userId', getNotifications);
 router.put('/:id/read', markNotificationRead);
 router.post('/', authorizeRoles('admin', 'teacher'), sendNotification);
-module.exports = router;
+module.exports = router; 

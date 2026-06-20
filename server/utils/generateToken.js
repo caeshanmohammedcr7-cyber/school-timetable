@@ -4,4 +4,4 @@ const generateToken = (id, role) => {
     expiresIn: '30d',
   });
 };
-module.exports = generateToken;
+module.exports = generateToken; 

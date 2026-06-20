@@ -50,4 +50,4 @@ module.exports = {
   getAllLeaveRequests,
   approveLeaveRequest,
   rejectLeaveRequest,
-};
+}; 
